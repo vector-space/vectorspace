@@ -18,6 +18,24 @@
     "jest-plugins-recommended": "2.6.0",
     "lerna": "2.8.0"
   },
+   "babel": {
+    "presets": [
+      [
+        "./packages/babel-preset/src/getPreset.js",
+        {
+          "target": "node"
+        }
+      ]
+    ]
+  },
+  "eslintIgnore": [
+    "build",
+    "coverage",
+    "node_modules"
+  ],
+  "eslintConfig": {
+    "extends": "./packages/eslint-config/src/config.js"
+  },
   "jest": {
     "testEnvironment": "node"
   },
