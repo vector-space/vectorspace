@@ -1,6 +1,6 @@
 {
   "name": "@vectorspace/eslint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Default ESLint config for @vectorspace packages.",
   "license": "MIT",
   "author": "VectorSpace <engineering@vectorspace.io>",
