@@ -11,6 +11,9 @@
     "preset",
     "test"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "jest-preset.json",
     "setup.js"
