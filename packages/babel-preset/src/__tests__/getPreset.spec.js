@@ -3,7 +3,7 @@ import getPreset from '../getPreset';
 
 
 /* eslint-disable no-undef */
-describe('babel-preset-jolt', () => {
+describe('babel-preset', () => {
   set('target', () => undefined);
   set('react', () => false);
   set('reactNative', () => false);

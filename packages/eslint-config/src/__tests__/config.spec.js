@@ -2,7 +2,7 @@
 import config from '../config';
 
 
-describe('eslint-config-jolt', () => {
+describe('eslint-config', () => {
   it('should return an object with plugins', () => {
     expect(config).toHaveProperty('plugins');
   });
