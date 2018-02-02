@@ -14,9 +14,13 @@ composer.lock
 *.swp
 *.swo
 
-# Project Specific
+# JS Specific
 .eslintcache
 coverage
 node_modules
 *.log
 *.tgz
+
+# Repo Specific
+apps/build
+packages/build
