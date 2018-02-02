@@ -1,3 +1,3 @@
 # VectorSpace
 
-Landing page for vectorspace.io.
+Apps, services, and bots for VectorSpace.
