@@ -1,15 +1,15 @@
-# eslint-config-jolt
+# @vectorspace/eslint-config
 
-[![npm](https://img.shields.io/npm/v/eslint-config-jolt.svg)](https://www.npmjs.com/package/eslint-config-jolt)
-[![npm](https://img.shields.io/npm/dt/eslint-config-jolt.svg)](https://www.npmjs.com/package/eslint-config-jolt)
-[![npm](https://img.shields.io/npm/l/eslint-config-jolt.svg)](https://github.com/negativetwelve/eslint-config-jolt/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/@vectorspace/eslint-config.svg)](https://www.npmjs.com/package/@vectorspace/eslint-config)
+[![npm](https://img.shields.io/npm/dt/@vectorspace/eslint-config.svg)](https://www.npmjs.com/package/@vectorspace/eslint-config)
+[![npm](https://img.shields.io/npm/l/@vectorspace/eslint-config.svg)](https://github.com/vectorspace/eslint-config/blob/master/LICENSE)
 
 ## Getting Started
 
-Install `eslint-config-jolt` using `yarn`:
+Install `@vectorspace/eslint-config` using `yarn`:
 
 ```shell
-yarn add --dev eslint-config-jolt
+yarn add --dev @vectorspace/eslint-config
 ```
 
 ## Usage
@@ -17,13 +17,13 @@ yarn add --dev eslint-config-jolt
 In your `.eslintrc`, add the following:
 
 ```json
-"extends": "jolt"
+"extends": "@vectorspace/eslint-config"
 ```
 
 If you prefer to have your config in your `package.json`, add:
 
 ```json
 "eslintConfig": {
-  "extends": "jolt"
+  "extends": "@vectorspace/eslint-config"
 },
 ```

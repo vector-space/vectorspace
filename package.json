@@ -18,6 +18,9 @@
     "jest-plugins-recommended": "2.6.0",
     "lerna": "2.8.0"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "workspaces": [
     "apps/*",
     "packages/*"
