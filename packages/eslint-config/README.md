@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/@vectorspace/eslint-config.svg)](https://www.npmjs.com/package/@vectorspace/eslint-config)
 [![npm](https://img.shields.io/npm/dt/@vectorspace/eslint-config.svg)](https://www.npmjs.com/package/@vectorspace/eslint-config)
-[![npm](https://img.shields.io/npm/l/@vectorspace/eslint-config.svg)](https://github.com/vectorspace/eslint-config/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/l/@vectorspace/eslint-config.svg)](https://github.com/vector-space/eslint-config/blob/master/LICENSE)
 
 ## Getting Started
 

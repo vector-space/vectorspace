@@ -5,6 +5,7 @@
     "yarn": ">=1.3.2"
   },
   "devDependencies": {
+    "babel-cli": "6.26.0",
     "babel-core": "6.26.0",
     "babel-jest": "21.2.0",
     "eslint": "4.5.0",
@@ -18,6 +19,24 @@
     "jest-plugins-recommended": "2.6.0",
     "lerna": "2.8.0"
   },
+  "babel": {
+    "presets": [
+      [
+        "./packages/babel-preset/src/getPreset.js",
+        {
+          "target": "node"
+        }
+      ]
+    ]
+  },
+  "eslintIgnore": [
+    "build",
+    "coverage",
+    "node_modules"
+  ],
+  "eslintConfig": {
+    "extends": "./packages/eslint-config/src/config.js"
+  },
   "jest": {
     "testEnvironment": "node"
   },
@@ -27,11 +46,14 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "clean": "lerna clean",
+    "build": "lerna run build",
+    "clean": "lerna clean --yes && lerna run clean",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
     "lint": "eslint .",
     "lint:cached": "yarn lint --cache",
     "release": "lerna publish --force-publish",
     "test": "jest",
+    "test:build": "yarn run build && yarn run test",
     "test:coverage": "yarn test --coverage"
   }
 }
