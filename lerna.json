@@ -1,0 +1,12 @@
+{
+  "version": "0.0.0",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "lerna": "2.8.0",
+  "command": {
+    "publish": {
+      "allowBranch": "master",
+      "exact": true
+    }
+  }
+}
