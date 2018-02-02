@@ -1,0 +1,1 @@
+'use strict';module.exports=function(prefix,dependencies){return dependencies.filter(Boolean).map(function(dependency){if(!Array.isArray(dependency)){dependency=[dependency];}var module=dependency[0];if(typeof module==='string'){var required=require(`${prefix}-${module}`);dependency[0]=required.__esModule?required.default:required;}return dependency;});};
