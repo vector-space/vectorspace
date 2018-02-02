@@ -1,0 +1,27 @@
+{
+  "name": "@vectorspace/eslint-config",
+  "version": "0.0.0",
+  "description": "Default ESLint config for @vectorspace packages.",
+  "license": "MIT",
+  "author": "VectorSpace <engineering@vectorspace.io>",
+  "homepage": "https://github.com/vector-space/vectorspace",
+  "repository": "https://github.com/vector-space/vectorspace/tree/master/packages/eslint-config",
+  "keywords": [
+    "eslint",
+    "lint"
+  ],
+  "main": "build/config",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.8.1",
+    "eslint-plugin-jest": "^20.0.3"
+  },
+  "scripts": {
+    "build": "babel src --out-dir build --ignore '**/*.spec.js'",
+    "clean": "rimraf build",
+    "prepublishOnly": "yarn run clean && yarn run build"
+  }
+}
