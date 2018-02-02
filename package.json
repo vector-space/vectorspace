@@ -38,6 +38,7 @@
     "extends": "./packages/eslint-config/src/config.js"
   },
   "jest": {
+    "preset": "@vectorspace/jest-preset",
     "testEnvironment": "node"
   },
   "workspaces": [

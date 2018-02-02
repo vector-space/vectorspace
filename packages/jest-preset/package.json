@@ -1,11 +1,11 @@
 {
-  "name": "jest-preset-jolt",
-  "version": "2.8.6",
-  "description": "Default jest configuration for jolt packages.",
+  "name": "@vectorspace/jest-preset",
+  "version": "0.0.0",
+  "description": "Default jest configuration for @vectorspace packages.",
   "license": "MIT",
-  "author": "Mark Miyashita <negativetwelve@gmail.com>",
-  "homepage": "https://github.com/negativetwelve/jolt",
-  "repository": "https://github.com/negativetwelve/jolt/tree/master/packages/jest-preset-jolt",
+  "author": "VectorSpace <engineering@vectorspace.io>",
+  "homepage": "https://github.com/vector-space/vectorspace",
+  "repository": "https://github.com/vector-space/vectorspace/tree/master/packages/jest-preset",
   "keywords": [
     "jest",
     "jolt",
