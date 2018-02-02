@@ -14,7 +14,7 @@ yarn add --dev @vectorspace/babel-preset
 
 ## Usage
 
-In your `.babelrc` or `package.json`, add `jolt` as a preset:
+In your `.babelrc` or `package.json`, add `@vectorspace/babel-preset` as a preset:
 
 ```json
 "babel": {

@@ -1,0 +1,25 @@
+{
+  "name": "@vectorspace/jest-preset",
+  "version": "0.0.0",
+  "description": "Default jest configuration for @vectorspace packages.",
+  "license": "MIT",
+  "author": "VectorSpace <engineering@vectorspace.io>",
+  "homepage": "https://github.com/vector-space/vectorspace",
+  "repository": "https://github.com/vector-space/vectorspace/tree/master/packages/jest-preset",
+  "keywords": [
+    "jest",
+    "preset",
+    "test"
+  ],
+  "files": [
+    "jest-preset.json",
+    "setup.js"
+  ],
+  "dependencies": {
+    "jest-plugins": "^2.6.0",
+    "jest-plugins-recommended": "^2.6.0"
+  },
+  "peerDependencies": {
+    "jest": "*"
+  }
+}

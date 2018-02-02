@@ -3009,7 +3009,7 @@ jest-plugin-set@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/jest-plugin-set/-/jest-plugin-set-2.6.0.tgz#ab1b87bd9c42903c8bdada39ae26da9ab1cf9e49"
 
-jest-plugins-recommended@2.6.0:
+jest-plugins-recommended@2.6.0, jest-plugins-recommended@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/jest-plugins-recommended/-/jest-plugins-recommended-2.6.0.tgz#781a14739ad5b7d471e1934ffcb93858bd807b81"
   dependencies:
