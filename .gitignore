@@ -22,5 +22,5 @@ node_modules
 *.tgz
 
 # Repo Specific
-apps/build
-packages/build
+/apps/*/build
+/packages/*/build
