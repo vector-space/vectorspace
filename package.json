@@ -1,5 +1,5 @@
 {
-  "name": "vs",
+  "name": "@vectorspace/vectorspace",
   "private": true,
   "engines": {
     "yarn": ">=1.3.2"
