@@ -19,7 +19,7 @@
     "jest-plugins-recommended": "2.6.0",
     "lerna": "2.8.0"
   },
-   "babel": {
+  "babel": {
     "presets": [
       [
         "./packages/babel-preset/src/getPreset.js",
