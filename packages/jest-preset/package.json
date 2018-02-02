@@ -8,7 +8,6 @@
   "repository": "https://github.com/vector-space/vectorspace/tree/master/packages/jest-preset",
   "keywords": [
     "jest",
-    "jolt",
     "preset",
     "test"
   ],
